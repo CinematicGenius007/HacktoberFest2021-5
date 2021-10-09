@@ -33,7 +33,7 @@ Node*takeInput(){
             while(temp->next!=NULL){
                 temp=temp->next;
             }
-            temp->next=newNode;
+            temp->next=head;
         }
         cin>>data;
     }
